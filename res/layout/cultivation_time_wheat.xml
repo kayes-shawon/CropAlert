@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="13"
+    tools:context=".Description_paddy"
+    android:background="#B4CF5F" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#00A2E8"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/title_activity_cultivation_time_wheat"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+    <ScrollView 
+         
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cultivation_time_wheat" />
+    
+    </ScrollView>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="330dp"
+        android:background="#658A32" >
+
+        <Button
+            android:id="@+id/home8"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#54A621"
+            android:text="@string/home"
+            android:textColor="#FFFF" />
+    </RelativeLayout>
+
+</LinearLayout>

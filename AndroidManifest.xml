@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cropinfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    
+     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.cropinfo.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.About_crop"
+            android:label="@string/title_activity_about_crop" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.About_us"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Add_info_jute"
+            android:label="@string/title_activity_add_info_jute" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Add_info_paddy"
+            android:label="@string/title_activity_add_info_paddy" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Add_info_wheat"
+            android:label="@string/title_activity_add_info_wheat" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Cultivation_time_jute"
+            android:label="@string/title_activity_cultivation_time_jute" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Cultivation_time_paddy"
+            android:label="@string/title_activity_cultivation_time_paddy" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Cultivation_time_wheat"
+            android:label="@string/title_activity_cultivation_time_wheat" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Description_jute"
+            android:label="@string/title_activity_description_jute" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Description_paddy"
+            android:label="@string/title_activity_description_paddy" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Description_wheat"
+            android:label="@string/title_activity_description_wheat" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Disease_jute"
+            android:label="@string/title_activity_disease_jute" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Disease_paddy"
+            android:label="@string/title_activity_disease_paddy" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Disease_wheat"
+            android:label="@string/title_activity_disease_wheat" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Jute"
+            android:label="@string/title_activity_jute" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Paddy"
+            android:label="@string/title_activity_paddy" >
+        </activity>
+        <activity
+            android:name="com.example.cropinfo.Wheat"
+            android:label="@string/title_activity_wheat" >
+        </activity>
+    </application>
+
+</manifest>
